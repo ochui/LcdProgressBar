@@ -1,4 +1,4 @@
-#include <LiquidCrystal.h>
+#include <LiquidCrystal_I2C.h>
 #include <LcdProgressBar.h>
 
 byte lcdNumCols = 16; // -- number of columns in the LCD
