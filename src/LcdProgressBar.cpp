@@ -37,9 +37,9 @@
 #include "Arduino.h"
 #include "LcdProgressBar.h"
 
-#include <LiquidCrystal.h>
+#include <LiquidCrystal_I2C.h>
 
-LcdProgressBar::LcdProgressBar(LiquidCrystal* lcd, int row, int numCols)
+LcdProgressBar::LcdProgressBar(LiquidCrystal_I2C* lcd, int row, int numCols)
 {
   _lcd             = lcd;
   _numCols         = numCols;
